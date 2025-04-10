@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(126, 53, 53);
+    background-color: rgb(0, 0, 0);
 }
 
 .title-text {
@@ -32,7 +32,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgb(0, 0, 0), 0, 0);
+    border: 1px solid rgb(175, 73, 73);
     border-radius: 10px;
 }
 
