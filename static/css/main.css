@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(126, 53, 53);
+}
+
+.title-text {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 32px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.footer-text {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.calculator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 340px;
+    box-sizing: border-box;
+    background-color: rgb(0, 8, 126);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(0, 0, 0), 0, 0);
+    border-radius: 10px;
+}
+
+.button {
+    background-color: rgb(0, 247, 255);
+    min-width: 70px;
+    min-height: 50px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    font-size: 24px;
+    font-family: Tahoma, Geneva, sans-serif;
+    border-radius: 10px;
+}
+
+.visor {
+    background-color: white;
+    min-width: 315px;
+    min-height: 40px;
+    cursor: auto;
+    text-align: right;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    font-size: 24px;
+    font-family: Tahoma, Geneva, sans-serif;
+    border-radius: 10px;
+}
+
+.calc {
+    background: transparent;
+    cursor: auto;
+    text-align: right;
+    min-width: 315px;
+    min-height: 10px;
+    margin-left: 5px;
+    position: absolute;
+    border: 0px;
+    color: grey;
+    font-size: 10px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.button_result {
+    background-color: gray;
+    min-width: 155px;
+    min-height: 50px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    font-size: 24px;
+    font-family: Tahoma, Geneva, sans-serif;
+    border-radius: 10px;
+}
